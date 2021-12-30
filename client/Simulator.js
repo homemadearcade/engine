@@ -143,8 +143,7 @@ class Simulator {
         }
 
 
-
-
+        
         this.input.releaseKeys()
 
         if (this.myRawEntity) {

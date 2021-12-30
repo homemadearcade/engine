@@ -10,6 +10,27 @@ import followPath from './followPath'
 import damagePlayer from './damagePlayer'
 
 
+// const config = {
+//   type: Phaser.HEADLESS,
+//   parent: 'phaser-example',
+//   width: 800,
+//   height: 600,
+//   physics: {
+//     default: 'arcade',
+//     arcade: {
+//       debug: false,
+//       gravity: { y: 0 }
+//     }
+//   },
+//   scene: {
+//     preload: preload,
+//     create: create,
+//     update: update
+//   },
+//   autoFocus: false,
+// };
+
+
 class GameInstance {
     constructor() {
         this.players = new Map()
