@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "HA engine with client-side prediction, lag compensation, pixi rendering",
   "scripts": {
-    "start": "npx npm-run-all --parallel server client",
+    "start": "npx npm-run-all --parallel server client --mode=production",
     "server": "npx nodemon ./server/index.js --ignore public",
     "client": "npx webpack-dev-server --config webpack.dev.js",
     "build": "npx webpack --config webpack.prod.js"
