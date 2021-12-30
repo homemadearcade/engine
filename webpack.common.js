@@ -6,7 +6,7 @@ module.exports = {
 	entry: './client/clientMain.js',
 	output: {
         path: path.resolve(__dirname, './public/js'),
-		filename: 'app-v' + version + '.js'
+		    filename: 'app-v' + version + '.js'
 
 	}
 }
